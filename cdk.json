@@ -1,0 +1,6 @@
+{
+  "app": "npx ts-node bin/aws-iot-cqrs.ts",
+  "context": {
+    "aws-cdk:enableDiffNoFail": "true"
+  }
+}

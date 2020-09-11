@@ -1,0 +1,27 @@
+*.js
+!jest.config.js
+*.d.ts
+node_modules
+.DS_Store
+.vscode
+cdk.context.json
+package-lock.json
+venv
+client.config
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+# certs
+*.crt
+*.key
+*.pem
+
+# Parcel build directories
+.cache
+.build
+
+# Container code
+!query-service.js
+!command-service.js
