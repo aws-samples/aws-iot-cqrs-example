@@ -15,6 +15,7 @@ The goal is to demonstrate the CQRS concept can be used to separate request/repl
 ## Deplyoment
 
 After you have cloned the repository in a terminal windown run: `make init`.
+Make sure Docker is installed and that the docker daemon is running.
 Deployment is performed by issuing: `make deploy`.
 
 ## IoT Sample Client Setup
